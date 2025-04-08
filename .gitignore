@@ -1,0 +1,77 @@
+# Ignorar arquivos gerados pelo IDE/Editor
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.vscode/
+
+# Ignorar binários e builds
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.config
+*.manifest
+*.application
+*.msi
+*.xap
+*.pubxml
+
+# Arquivos de usuário
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de publicação
+publish/
+
+# Dependências (NuGet)
+packages/
+[Nn]u[Gg]et.[Pp]ackages.[Ll]ock.[Xx]ml
+*.nupkg
+
+# Testes
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Rider
+.idea/
+*.sln.iml
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Logs
+*.log
+*.log.*
+[Nn]Log.txt
+
+# Output do dotnet
+dotnet-*.log
+
+# Ferramentas do VS
+*.vspscc
+*.vssscc
+*.sap
+
+# Arquivos de projeto desnecessários
+_ReSharper.*
+*.resharper
+*.sln.ide
